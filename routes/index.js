@@ -4,6 +4,11 @@ import { createWebHistory, createRouter } from 'vue-router';
 import Login from "../src/components/LoginPage.vue";
 import Register from "../src/components/RegisterPage.vue";
 import Home from "../src/components/HomePage.vue";
+import Question from "../src/components/QuestionPage.vue";
+import Start from "../src/components/StartPage.vue";
+import Result from "../src/components/ResultPage.vue";
+
+
 
 
 
@@ -28,7 +33,23 @@ const routes = [
     name: "home",
     component: Home
 
-}]
+},
+{
+    path: "/start",
+    name: "start",
+    component: Start
+},
+{
+    path: "/question",
+    name: "question",
+    component: Question
+},
+{
+    path: "/result",
+    name: "result",
+    component: Result
+}
+]
 
 const router = createRouter({
     history: createWebHistory(),

@@ -1,6 +1,5 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <h1>Questionaire</h1>
   <router-view></router-view>
 </template>
 
@@ -12,6 +11,19 @@ export default {
   // components: {
   //   HelloWorld
   // }
+  components: {},
+
+  data() {
+    return{
+      isPlaying: false,
+      delay: null
+    }
+  },
+  methods: {
+    start()  {
+      this.isPlaying = true
+    }
+  },
 }
 </script>
 
@@ -21,7 +33,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #444;
   margin-top: 60px;
 }
  @import'~bootstrap/dist/css/bootstrap.css'

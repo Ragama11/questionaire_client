@@ -5,18 +5,17 @@
     <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
       <div class="position-sticky">
         <div class="list-group list-group-flush mx-3 mt-4">
-          <a
-            href="#"
+          <a href="#"
             class="list-group-item list-group-item-action py-2 ripple"
             aria-current="true"
           >
-            <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Quizes</span>
+            <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>My Account</span>
           </a>
           <a
             href="#"
             class="list-group-item list-group-item-action py-2 ripple active"
           >
-            <i class="fas fa-chart-area fa-fw me-3"></i><span>My Account</span>
+            <i class="fas fa-chart-area fa-fw me-3"></i><span>Quizes</span>
           </a>
           <a href="#" class="list-group-item list-group-item-action py-2 ripple"
             ><i class="fas fa-lock fa-fw me-3"></i><span>Deposit</span></a
@@ -62,7 +61,7 @@
 
         <!-- Brand -->
         <a class="navbar-brand" href="#">
-          <p style="font-size: 2vw">Questionaire.</p>
+          <h1 style="font-size: 2vw">Questionaire!</h1>
 
           <!-- <img
           src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
@@ -258,7 +257,33 @@
               <p class="card-text">
                 Challenge your mind with good morning algebric mathemaics.
               </p>
-              <a href="#" class="btn btn-primary">Start Quiz</a>
+              <button @click="Start">Start Quiz</button>
+            </div>
+            <div class="card-footer text-muted">*10</div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card text-center">
+            <div class="card-header">Algebra</div>
+            <div class="card-body">
+              <h5 class="card-title">Test Your Might!!</h5>
+              <p class="card-text">
+                Challenge your mind with good morning algebric mathemaics.
+              </p>
+              <button class="btn btn-primary">Start Quiz</button>
+            </div>
+            <div class="card-footer text-muted">*10</div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card text-center">
+            <div class="card-header">Algebra</div>
+            <div class="card-body">
+              <h5 class="card-title">Test Your Might!!</h5>
+              <p class="card-text">
+                Challenge your mind with good morning algebric mathemaics.
+              </p>
+              <button class="btn btn-primary">Start Quiz</button>
             </div>
             <div class="card-footer text-muted">*10</div>
           </div>
@@ -271,7 +296,7 @@
               <p class="card-text">
                 Challenge your mind with good morning algebric mathemaics.
               </p>
-              <a href="#" class="btn btn-primary">Start Quiz</a>
+              <button class="btn btn-primary">Start Quiz</button>
             </div>
             <div class="card-footer text-muted">*10</div>
           </div>
@@ -292,7 +317,33 @@
               <p class="card-text">
                 For the History Believers.An awesome begginner Quiz
               </p>
-              <a href="#" class="btn btn-primary">Start Quiz</a>
+              <button class="btn btn-primary">Start Quiz</button>
+            </div>
+            <div class="card-footer text-muted">*10</div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card text-center">
+            <div class="card-header">Algebra</div>
+            <div class="card-body">
+              <h5 class="card-title">Test Your Might!!</h5>
+              <p class="card-text">
+                Challenge your mind with good morning algebric mathemaics.
+              </p>
+              <button class="btn btn-primary">Start Quiz</button>
+            </div>
+            <div class="card-footer text-muted">*10</div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card text-center">
+            <div class="card-header">Algebra</div>
+            <div class="card-body">
+              <h5 class="card-title">Test Your Might!!</h5>
+              <p class="card-text">
+                Challenge your mind with good morning algebric mathemaics.
+              </p>
+              <button class="btn btn-primary">Start Quiz</button>
             </div>
             <div class="card-footer text-muted">*10</div>
           </div>
@@ -305,7 +356,67 @@
               <p class="card-text">
                 Challenge your mind with good morning algebric mathemaics.
               </p>
-              <a href="#" class="btn btn-primary">Start Quiz</a>
+              <button class="btn btn-primary">Start Quiz</button>
+            </div>
+            <div class="card-footer text-muted">*10</div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <div class="container pt-4">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Biology</h1>
+          <hr class="dashed" />
+        </div>
+        <div class="col-sm-3">
+          <div class="card text-center">
+            <div class="card-header">History of the World</div>
+            <div class="card-body">
+              <h5 class="card-title">Test Your Might!!</h5>
+              <p class="card-text">
+                For the History Believers.An awesome begginner Quiz
+              </p>
+              <button class="btn btn-primary">Start Quiz</button>
+            </div>
+            <div class="card-footer text-muted">*10</div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card text-center">
+            <div class="card-header">Algebra</div>
+            <div class="card-body">
+              <h5 class="card-title">Test Your Might!!</h5>
+              <p class="card-text">
+                Challenge your mind with good morning algebric mathemaics.
+              </p>
+              <button class="btn btn-primary">Start Quiz</button>
+            </div>
+            <div class="card-footer text-muted">*10</div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card text-center">
+            <div class="card-header">Algebra</div>
+            <div class="card-body">
+              <h5 class="card-title">Test Your Might!!</h5>
+              <p class="card-text">
+                Challenge your mind with good morning algebric mathemaics.
+              </p>
+              <button class="btn btn-primary">Start Quiz</button>
+            </div>
+            <div class="card-footer text-muted">*10</div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card text-center">
+            <div class="card-header">Kenyan History</div>
+            <div class="card-body">
+              <h5 class="card-title">Test Your Might!!</h5>
+              <p class="card-text">
+                Challenge your mind with good morning algebric mathemaics.
+              </p>
+              <button class="btn btn-primary">Start Quiz</button>
             </div>
             <div class="card-footer text-muted">*10</div>
           </div>
