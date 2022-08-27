@@ -1,5 +1,5 @@
 <template>
-  <h2>Would you like to start?</h2>
+  <h2 class="header">Would you like to start?</h2>
   <p>How much would you like to stake</p>
   <div class="form-outline mb-4">
     <input
@@ -9,7 +9,7 @@
       placeholder="Stake"
     />
   </div>
-  <a href="#" class="btn btn-primary">Start</a>
+  <button class="btn btn-primary">Start</button>
 </template>
 
 <script>
@@ -17,4 +17,12 @@ export default {};
 </script>
 
 <style scoped>
+
+.form-outline{
+    width: 30%;
+    position: relative;
+    margin-left: 30%;
+}
+
+
 </style>

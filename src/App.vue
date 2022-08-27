@@ -1,18 +1,17 @@
 <template>
   <h1>Questionaire</h1>
+  <the-header></the-header>
   <router-view></router-view>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+import TheHeader from './components/layout/TheHeader.vue';
 
 export default {
   name: 'App',
-  // components: {
-  //   HelloWorld
-  // }
-  components: {},
-
+  components: {
+    TheHeader
+  },
   data() {
     return{
       isPlaying: false,
@@ -24,7 +23,7 @@ export default {
       this.isPlaying = true
     }
   },
-}
+};
 </script>
 
 <style>
